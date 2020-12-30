@@ -1,11 +1,9 @@
 <template>
-  <div id="app">
-    <div class="container">
-      <h1>Sudoku</h1>
-      <b-button v-on:click="createNewSudoku" variant="success">Neu</b-button>
-      <b-button v-on:click="solveSudoku" class="ml-1" variant="success">Lösen</b-button>
-      <Sudoku :cells="this.cells"></Sudoku>
-    </div>
+  <div class="container">
+    <h1>Sudoku</h1>
+    <b-button v-on:click="createNewSudoku" variant="success">Neu</b-button>
+    <b-button v-on:click="solveSudoku" class="ml-1" variant="success">Lösen</b-button>
+    <Sudoku :cells="this.cells"></Sudoku>
   </div>
 </template>
 <script>
