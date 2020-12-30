@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "postcss": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.21.1",
+    "dayjs": "^1.9.3",
+    "lodash": "^4.17.20",
+    "vue": "^2.6.12",
+    "vue-js-modal": "^2.0.0-rc.6",
+    "vue-moment": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.7",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "prettier": {
+    "prettier.printWidth": 150
+  }
+}
